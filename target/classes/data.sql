@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS binnacle;
+
+CREATE TABLE binnacle (
+  id INT AUTO_INCREMENT  PRIMARY KEY,
+  content VARCHAR(250) NOT NULL,
+  result VARCHAR(250) NOT NULL
+);
