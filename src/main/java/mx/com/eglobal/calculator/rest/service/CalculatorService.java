@@ -45,7 +45,7 @@ public class CalculatorService {
 			case "MULTIPLICACION":
 				result = operation.getNumero1().multiply(operation.getNumero2());
 			break;
-			case "DIVICION":
+			case "DIVISION":
 				result = operation.getNumero1().divide(operation.getNumero2());
 			break;
 			default:
